@@ -3,16 +3,16 @@ let y = 15;
 let z = 4;
 
 x += y-x++*z;
-document.write(x + "<br/>");
+console.log(x);
 
 z = --x-y*5;
-document.write(z + "<br/>");
+console.log(z);
 
 y = x+5%z;
-document.write(y + "<br/>");
+console.log(y);
 
 z = x++ +y*5;
-document.write(z + "<br/>");
+console.log(z);
 
 x = y-x++ *z;
-document.write(x + "<br/>");
+console.log(x);
