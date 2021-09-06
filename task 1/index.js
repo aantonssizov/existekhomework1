@@ -1,6 +1,6 @@
-let x = 6;
-let y = 15;
-let z = 4;
+var x = 6;
+var y = 15;
+var z = 4;
 
 x += y-x++*z;
 console.log(x);
